@@ -1,0 +1,20 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# OCR run artifacts
+*.txt.progress
+probe_*.png
+ocr_page.png
+
+# Large / generated data (source PDF and OCR output are user data, not the tool)
+input.pdf
+output.txt
+
+# OS / editor
+.DS_Store
+*.swp
