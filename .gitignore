@@ -13,7 +13,16 @@ ocr_page.png
 
 # Large / generated data (source PDF and OCR output are user data, not the tool)
 input.pdf
-output.txt
+output*.txt
+
+# TTS: local model weights (6+ GB) and generated audio
+orpheus_model/
+parts_mms/
+parts_orpheus/
+tts_test/
+*.wav
+*.mp3
+*.flac
 
 # OS / editor
 .DS_Store
