@@ -19,7 +19,10 @@ output*.txt
 orpheus_model/
 parts_mms/
 parts_orpheus/
+parts_edge/
+edge_batches/
 tts_test/
+tts_*/
 *.wav
 *.mp3
 *.flac
